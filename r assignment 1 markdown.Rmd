@@ -1,0 +1,19 @@
+---
+title: "r assignment 1 markdown"
+author: "Dylan"
+date: "9/29/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown assignment 1
+
+```{r}
+for (x in 1:10){
+  print(x)
+}
+```
+
